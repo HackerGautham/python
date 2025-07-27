@@ -1,0 +1,23 @@
+print("-------------------------Bill Calculator-------------------------")
+#enter the details of the items
+item1 = input("Enter the name of item 1: ")
+price1=float(input("Enter the price of item1: "))
+quantity1=float(input("Enyer the quantity of item 1: "))
+item2 = input("Enter the name of item 2: ")
+price2=float(input("Enter the price of item2: "))
+quantity2=float(input("Enter the quantity of item 2: "))
+item3= input("Enter the name of item 3: ")
+price3=float(input("Enter the price of item3: "))
+quantity3=float(input("Enter the quantity of item 3: "))
+#calculate the total price
+total_price=(price1*quantity1)+(price2*quantity2)+(price3*quantity3)
+#display the bill
+print("-------------------------Bill-------------------------")
+print("Item\t\tPrice\t\tQuantity\tTotal")
+print("---------------------------------------------")
+print(f"{item1}\t\t{price1}\t\t{quantity1}\t\t{price1*quantity1}")
+print(f"{item2}\t\t{price2}\t\t{quantity2}\t\t{price2*quantity2}")
+print(f"{item3}\t\t{price3}\t\t{quantity3}\t\t{price3*quantity3}")
+print("---------------------------------------------")
+print(f"Total Price:\t\t\t{total_price}")
+print("-------------------------Thank you for shopping!-------------------------")
