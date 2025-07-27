@@ -17,8 +17,6 @@ This repository contains beginner-friendly Python projects to build core skills 
 ### 3. ATM Balance Checker
 
 A basic Python project using `if-else` to simulate an ATM PIN check and balance warning system.
-
-## Features:
 - PIN verification
 - Displays balance
 - Deposit money
